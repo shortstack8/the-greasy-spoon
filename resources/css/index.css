@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'greasytype';
+    src: url('../fonts/SuperDeluxeSans-Regular.otf');
+}
+
+html {
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    align-items: center;  
+    margin: 1%;
+    background-color: #ffffff;
+  }
+
+.logo img {
+    width: 220px;
+    height: auto;
+}
+
+.nav-group {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 25%;
+}
+ 
+.navbar li {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 1.05rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+}  
+
+.navbar a {
+    text-decoration: none;
+    color: #d78228;
+}
+
+.navbar a:hover {
+    color: #d3e5ef;
+}
+
+.container {
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 0%;
+}
+
+.mission {
+    display: flex;
+    height: 500px;
+    width: 98%;   
+    align-items: center;
+    justify-content: center;
+    background-image: url('..//images/AdobeStock_174026180.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.mission h2 {
+    font-family:'greasytype';
+    font-size: 2.5rem;
+    background-color: #f7aab2;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.mission-text p {
+    font-family:'greasytype';
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+    width: 98%;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    color: #d2c3ac;
+}
+  
+.statement {
+    display: flex;
+    align-content: center;
+    justify-content: space-between; 
+    width: 98%;
+    height: 300px;
+}
+
+.box {
+    background-color: #deebf3;
+    height: 300px;
+    width: 49%;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    color: #c51f45;
+}
+
+.text {
+    background-image: url('..//images/cheerful-woman-taking-selfie-in-cafe-2023-11-27-05-02-57-utc.JPG');
+    background-size: cover;
+    background-position: center;
+}
+
+.text h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #ffffff;
+    background-color: #fcb96b;
+    padding: 2%;
+}
+
+.blurb p {
+    font-size: 1.3rem;
+    width: 78%;
+    line-height: 2.5rem;
+}
+
+.team {
+    width: 98%;
+    align-content: center;
+    align-items: center;
+    justify-content: center; 
+    background-color: #ea686a;
+    height: 400px;
+}
+
+.team h2 {
+    text-align: center;
+    
+}
+
+.member-group {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly; 
+    width: 100%;
+    margin-top: 8px;
+}
+
+.selfie {
+    height: 300px;
+    width: auto;
+}
+
+.description {
+    text-align: center;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #f7aab2;
+    margin: 2.5% 1% 1% 1%;
+    padding: 1% 1%;
+}
+
+.greasy-bottom {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    width: 100%;
+}
+
+.greasy-bottom li {
+    display: inline-block;
+    font-size: 0.95rem;
+    padding-left: 20px;
+}
+
+.greasy-bottom a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.greasy-bottom a:hover {
+    color: #c51f45;
+}
+
+.social {
+    margin-left: 11.5%;
+}
+
+.social img { 
+    height: 30px;
+    width: 30px;
+}
+
+p {
+    font-size: 1.05rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'greasytype';
+    color: #c51f45;
+    font-size: 3.25rem;
+    font-weight: 700;
+
+}
+    
+h2 {
+    font-family: 'greasytype';
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #c51f45;
+}
+
+#green span {
+    color: #6d8f1d;
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+}
+
+@media only screen and (max-width:1070px) {
+     .nav-group {
+        margin-left: 15%;
+    }
+
+    .blurb p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+}
+
+@media only screen and (max-width:910px) {
+    .nav-group {
+        margin-left: 5%;
+    }
+}
+
+
+@media only screen and (max-width:720px) {
+    .blurb p {
+        font-size: 1.2rem;
+        line-height: 1.52rem;
+    }
+
+    .text h2 {
+        font-size: 2.3rem;
+        line-height: 2.3rem;
+    }
+
+    .team {
+        height: 300px;
+    }
+
+    .selfie {
+        height: 200px;
+        width: auto;
+    }
+
+    .description {
+    font-size: .9rem;
+    }
+}
+
+
+@media only screen and (max-width:560px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .navbar li {
+        font-size: 1rem;
+    }  
+    
+    .nav-group {
+        margin-left: 0%;
+    }
+
+    #green span {
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+
+    .mission-text p {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    
+    .blurb p {
+        font-size: 1rem;
+        line-height: 1.48rem;
+    }
+
+    .text h2 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }   
+}
+
+
+@media only screen and (max-width:480px) {
+    .logo img {
+        width: 160px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    .navbar li {
+        font-size: .8rem;
+    }  
+
+    .mission {
+        height: 300px;
+    }
+
+    .mission h2 {
+        font-size: 1.6rem;
+    }
+
+    #green span {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .mission-text p {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+    }
+
+    .blurb p {
+        font-size: .9rem;
+        line-height: 1rem;
+    }
+
+    .text h2 {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }   
+
+    .team {
+        height: 250px;
+    }
+
+    .team h2 {
+        text-align: center;
+        margin-top: 1rem;  
+    }
+
+    .selfie {
+        height: 160px;
+        width: auto;
+    }
+
+    .description {
+    margin-top: -.1rem;
+    margin-bottom: .5rem;
+    font-size: .7rem;
+    }
+
+    .greasy-bottom {
+        font-size: .7rem;
+    }
+    
+    .greasy-bottom li {
+        font-size: 0.7rem;
+
+    }
+
+    .social img { 
+        height: 22px;
+        width: 22px;
+    }
+}
+
+@media only screen and (max-width:354px) {
+    .team {
+        height: 420px;
+    }
+
+    .member-group {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
